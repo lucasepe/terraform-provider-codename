@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/lucasepe/terraform-provider-codename/internal/codename"
+	"github.com/lucasepe/codename"
 )
 
 func resourceCodename() *schema.Resource {

@@ -1,6 +1,6 @@
 # Terraform Codename provider
 
-> The Codename provider is used to generate random _"superhero like"_ codenames.
+> The Codename provider is used to generate random pronounceable, sometimes even memorable, "superhero like" codenames - just like Docker does with container names.
 
 The "codename" provider allows the generation of default random names within Terraform configurations. This is a logical provider, which means that it works entirely within Terraform's logic, and doesn't interact with any other services.
 
