@@ -43,7 +43,6 @@ func TestAccResourceCodename_token_length(t *testing.T) {
 
 func TestAccResourceCodename_prefix(t *testing.T) {
 	resource.UnitTest(t, resource.TestCase{
-		PreCheck:  func() { testAccPreCheck(t) },
 		Providers: testAccProviders,
 		Steps: []resource.TestStep{
 			{
